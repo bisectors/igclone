@@ -1,0 +1,139 @@
+ /* CSS RESET */
+ *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* Nav bar */
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(125, 50, 178);
+    color: rgb(230,230,230);
+    padding: 0;
+  }
+
+  nav button{
+    background-color: rgb(95, 20, 148);
+    color: rgb(230,230,230);
+  }
+
+  nav h5{
+    line-height: 1.5;
+    font-size: 22px;
+  }
+
+  .user-box{
+    display: flex;
+    justify-content: center;
+  }
+  .user-box img{
+    width: 30px;
+    margin-right: 8px;
+  }
+
+  /* Main */
+  main{
+    display: flex;
+    flex: 1;
+  }
+  .left-box, .center-box-feed, .right-box{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(170,170,170);
+  }
+  .left-box, .right-box{
+    background-color: rgb(240,240,240);
+  }
+  
+
+  /* LEft box */
+  .left-box{
+    text-align: right;
+  }
+
+  .left-box .sponsor-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .sponsor-box img{
+    margin-left: 10px;
+    width: 40px;
+    height: 36px;
+    border: 0.5px solid rgb(170,170,170);
+  }
+  .sponsor-box h5{
+    font-size: 14px;
+    color: blue;
+    margin-bottom: 2px;
+  }
+
+  .sponsor-box h6{
+    font-size: 13px;
+    color: rgb(80,80,80)
+  }
+  .left-box a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(80,80,80)
+  }
+
+  /* Center Box */
+.center-box-feed{
+    background-color: rgb(230,230,230);
+}
+.center-box-feed .feed-image{
+    width: 100%;
+    height: auto;
+}
+
+.like-and-share{
+    display: flex;
+    border: 1px solid rgb(200,200,200);
+    align-items: center;
+    justify-content: center;
+}
+
+.like-and-share svg{
+    flex: 1;
+}
+
+.like-and-share h5{
+    flex: 10;
+    border: 1px solid rgb(200,200,200);
+    justify-content: center;
+}
+
+.like-and-share h4{
+    flex: 1;
+}
+
+.red-heart{
+  display: none;
+}
+
+.comment-box{
+  width: 100%;
+  height: 25px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  color: black;
+}

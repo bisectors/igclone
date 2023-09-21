@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login &#x2022 Instagram </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box-wrapper">
+      <div class="name-box">
+        <h4>Instagram</h4>
+      </div>
+      <div class="user-password-wrapper">
+        <form id="loginForm">
+          <div class="box">
+            <label for="username" >Username:</label>
+            <input type="text" id="username" placeholder="Enter Username" name="username" required/>
+          </div>
+          <div class="box">
+            <label for="password" >Password:</label>
+            <input type="password" id="password" placeholder="Enter Password" name="password" required/>
+          </div>
+          <div class="box-left-right">
+            <h6><a href="">Forgot your password</a></h6>
+            <button type="submit" id="js-button-login" class="button">Log in</button>
+          </div> 
+        </form>              
+      </div>
+      <div id="error-message" style="color:red; display: none;"></div> 
+    </div>
+    <div class="download-signup-box">
+      <h6>Need an account?</h6>
+      <h5>Download the app to signup</h5>
+      <div class="button-wrapper">
+        <div class="button-box">          
+          <button class="button">
+            <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+            clip-rule="evenodd"
+            fill="currentColor" x="0px" y="0px" width="25" height="30" viewBox="0 0 50 50">
+            <path d="M 44.527344 34.75 C 43.449219 37.144531 42.929688 38.214844 41.542969 40.328125 C 39.601563 43.28125 36.863281 46.96875 33.480469 46.992188 C 30.46875 47.019531 29.691406 45.027344 25.601563 45.0625 C 21.515625 45.082031 20.664063 47.03125 17.648438 47 C 14.261719 46.96875 11.671875 43.648438 9.730469 40.699219 C 4.300781 32.429688 3.726563 22.734375 7.082031 17.578125 C 9.457031 13.921875 13.210938 11.773438 16.738281 11.773438 C 20.332031 11.773438 22.589844 13.746094 25.558594 13.746094 C 28.441406 13.746094 30.195313 11.769531 34.351563 11.769531 C 37.492188 11.769531 40.8125 13.480469 43.1875 16.433594 C 35.421875 20.691406 36.683594 31.78125 44.527344 34.75 Z M 31.195313 8.46875 C 32.707031 6.527344 33.855469 3.789063 33.4375 1 C 30.972656 1.167969 28.089844 2.742188 26.40625 4.78125 C 24.878906 6.640625 23.613281 9.398438 24.105469 12.066406 C 26.796875 12.152344 29.582031 10.546875 31.195313 8.46875 Z"></path>
+            </svg>
+            <div class="text-box">
+              <span>Download on the</span>
+              <span class="big-font">App Store</span>
+            </div>
+          </button>
+        </div>
+        <div class="button-box">
+          <button class="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="30" viewBox="0 0 48 48">
+            <linearGradient id="jFdG-76_seIEvf-hbjSsaa_rZwnRdJyYqRi_gr1" x1="1688.489" x2="1685.469" y1="-883.003" y2="-881.443" gradientTransform="matrix(11.64 0 0 22.55 -19615.32 19904.924)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#047ed6"></stop><stop offset="1" stop-color="#50e6ff"></stop></linearGradient><path fill="url(#jFdG-76_seIEvf-hbjSsaa_rZwnRdJyYqRi_gr1)" fill-rule="evenodd" d="M7.809,4.608c-0.45,0.483-0.708,1.227-0.708,2.194	v34.384c0,0.967,0.258,1.711,0.725,2.177l0.122,0.103L27.214,24.2v-0.433L7.931,4.505L7.809,4.608z" clip-rule="evenodd"></path><linearGradient id="jFdG-76_seIEvf-hbjSsab_rZwnRdJyYqRi_gr2" x1="1645.286" x2="1642.929" y1="-897.055" y2="-897.055" gradientTransform="matrix(9.145 0 0 7.7 -15001.938 6931.316)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffda1c"></stop><stop offset="1" stop-color="#feb705"></stop></linearGradient><path fill="url(#jFdG-76_seIEvf-hbjSsab_rZwnRdJyYqRi_gr2)" fill-rule="evenodd" d="M33.623,30.647l-6.426-6.428v-0.45l6.428-6.428	l0.139,0.086l7.603,4.321c2.177,1.227,2.177,3.249,0,4.493l-7.603,4.321C33.762,30.561,33.623,30.647,33.623,30.647z" clip-rule="evenodd"></path><linearGradient id="jFdG-76_seIEvf-hbjSsac_rZwnRdJyYqRi_gr3" x1="1722.978" x2="1720.622" y1="-889.412" y2="-886.355" gradientTransform="matrix(15.02 0 0 11.5775 -25848.943 10324.73)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9414f"></stop><stop offset="1" stop-color="#8c193f"></stop></linearGradient><path fill="url(#jFdG-76_seIEvf-hbjSsac_rZwnRdJyYqRi_gr3)" fill-rule="evenodd" d="M33.762,30.561l-6.565-6.567L7.809,43.382	c0.708,0.761,1.9,0.847,3.232,0.103L33.762,30.561" clip-rule="evenodd"></path><linearGradient id="jFdG-76_seIEvf-hbjSsad_rZwnRdJyYqRi_gr4" x1="1721.163" x2="1722.215" y1="-891.39" y2="-890.024" gradientTransform="matrix(15.02 0 0 11.5715 -25848.943 10307.886)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33c481"></stop><stop offset="1" stop-color="#61e3a7"></stop></linearGradient><path fill="url(#jFdG-76_seIEvf-hbjSsad_rZwnRdJyYqRi_gr4)" fill-rule="evenodd" d="M33.762,17.429L11.041,4.522	c-1.33-0.761-2.524-0.658-3.232,0.103l19.386,19.369L33.762,17.429z" clip-rule="evenodd"></path>
+            </svg>
+            <div class="text-box">
+              <span>GET IT ON</span>
+              <span class="big-font">Google play</span>
+            </div>          
+          </button>
+        </div>
+      </div>
+
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+  
+</html>
